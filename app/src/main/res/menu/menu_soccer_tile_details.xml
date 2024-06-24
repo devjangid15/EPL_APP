@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menuItemLink"
+        android:title="Link"
+        android:iconTint="@color/white"
+        app:showAsAction="always"
+        android:orderInCategory="2"
+        android:icon="@drawable/baseline_public_24"/>
+    <item
+        android:id="@+id/menuItemFavourite"
+        android:title="Favourite"
+        android:iconTint="@color/black"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_favorite_border_24"/>
+</menu>
